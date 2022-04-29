@@ -1,0 +1,33 @@
+{
+    "name": "production-office",
+    "version": "1.0.0",
+    "description": "",
+    "main": "pof.js",
+    "scripts": {
+        "start": "node pof.js",
+        "dev": "nodemon pof.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "type": "module",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@apollo/federation": "^0.33.0",
+        "@graphql-tools/stitch": "^8.3.1",
+        "@graphql-tools/utils": "^8.5.3",
+        "@graphql-tools/wrap": "^8.0.8",
+        "@newrelic/apollo-server-plugin": "^1.0.2",
+        "apollo-server": "^2.25.2",
+        "apollo-server-plugin-response-cache": "^0.5.8",
+        "dotenv": "^10.0.0",
+        "graphql": "^15.5.1",
+        "graphql-tools": "^8.1.0",
+        "graphql-transform-federation": "^2.2.0",
+        "newrelic": "^8.4.0",
+        "node-fetch": "^3.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.14"
+    }
+}
